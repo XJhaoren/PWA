@@ -6,7 +6,7 @@ Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang*, Baihua Xiao
 NOTE:
 
 tools:
-  1.The python code is based on the python data science platform Anaconda2.
+</br>1.The python code is based on the python data science platform Anaconda2.
 2.The python code is tested on Windows by PyCharm.
 
 
