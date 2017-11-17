@@ -1,4 +1,4 @@
-# PWA-Part-based-Weighting-Aggregation
+# Part-based Weighting Aggregation (PWA)
 Code for our AAAI2018 paper：
 Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval
 Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang*, Baihua Xiao
