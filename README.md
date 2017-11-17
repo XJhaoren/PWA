@@ -11,8 +11,7 @@ tools:
 
 
 data:
-</br>3.The features of convolutional layer(Pool5 layer) of VGG16 for Oxford5k and Paris6k datasets 
-  are in path "data\feature".
+</br>3.You should uncompress the file "data\feature.rar" into current folder "data" firstly. The features of convolutional layer(Pool5 layer) of VGG16 for Oxford5k and Paris6k datasets are in path "data\feature". 
 </br>4.The order of part detectors are in path "data\filter_select"
 </br>5.The groundtruth for Oxford5k and Paris6k datasets are in path "data\gt_files"
 
