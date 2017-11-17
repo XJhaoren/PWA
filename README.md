@@ -7,7 +7,6 @@ NOTE:
 
 tools:
 1.The python code is based on the python data science platform Anaconda2.
-
 2.The python code is tested on Windows by PyCharm.
 
 
