@@ -198,7 +198,7 @@ def get_ap(inds, dists, query_name, index_names, groundtruth_dir, ranked_dir=Non
     groundtruth_prefix = os.path.join(groundtruth_dir, query_name)
     # cmd = './compute_ap.exe %s %s' % (groundtruth_prefix, rank_file)
     # ap = os.popen(cmd).read()
-    cmd = "{0} {1} {2}".format('D:/dataset/retrieval/oxford5k/compute_ap/compute_ap/x64/Release/compute_ap.exe',
+    cmd = "{0} {1} {2}".format('./compute_ap.exe',
                                groundtruth_prefix, rank_file)
     p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     ap = ((p.stdout.readlines()[0]))
