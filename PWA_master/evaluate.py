@@ -192,18 +192,25 @@ def get_ap(inds, dists, query_name, index_names, groundtruth_dir, ranked_dir=Non
         f = NamedTemporaryFile(delete=False)
         rank_file = f.name
 
+    #compute map for windows         
     f.writelines([index_names[0][i] + '\n' for i in inds])
+    # f.writelines([index_names[0][i] + '\r'+'\n' for i in inds])
     f.close()
-
     groundtruth_prefix = os.path.join(groundtruth_dir, query_name)
-    # cmd = './compute_ap.exe %s %s' % (groundtruth_prefix, rank_file)
-    # ap = os.popen(cmd).read()
     cmd = "{0} {1} {2}".format('./compute_ap.exe',
                                groundtruth_prefix, rank_file)
     p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     ap = ((p.stdout.readlines()[0]))
     p.wait()
 
+#     # compute map for linux    
+#     f.writelines([index_names[0][i] +'\r'+'\n'  for i in inds])
+#     f.close()
+#     groundtruth_prefix = os.path.join(groundtruth_dir, query_name)
+#     cmd = './compute_ap %s %s' % (groundtruth_prefix, rank_file)
+#     ap = os.popen(cmd).read()
+    
+    
     # Delete temp file
     if ranked_dir is None:
         os.remove(rank_file)
