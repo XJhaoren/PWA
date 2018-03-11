@@ -203,12 +203,12 @@ def get_ap(inds, dists, query_name, index_names, groundtruth_dir, ranked_dir=Non
     ap = ((p.stdout.readlines()[0]))
     p.wait()
 
-#     # compute map for linux    
-#     f.writelines([index_names[0][i] +'\r'+'\n'  for i in inds])
-#     f.close()
-#     groundtruth_prefix = os.path.join(groundtruth_dir, query_name)
-#     cmd = './compute_ap %s %s' % (groundtruth_prefix, rank_file)
-#     ap = os.popen(cmd).read()
+    # # compute map for linux    
+    # f.writelines([index_names[0][i] +'\r'+'\n'  for i in inds])
+    # f.close()
+    # groundtruth_prefix = os.path.join(groundtruth_dir, query_name)
+    # cmd = './compute_ap %s %s' % (groundtruth_prefix, rank_file)
+    # ap = os.popen(cmd).read()
     
     
     # Delete temp file
