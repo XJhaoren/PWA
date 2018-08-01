@@ -21,11 +21,11 @@ code:
 </br>7.Run select_filter.py to get the order of part detectors according to variances. 
 
 Related publications:
-Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval
-@paper{ PWA,
-	author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao},
-	title = {Unsupervised Part-Based Weighting Aggregation of Deep Convolutional Features for Image Retrieval},
-	conference = {AAAI Conference on Artificial Intelligence},
-	year = {2018}
-}
-https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137
+</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval
+</br>@paper{ PWA,
+</br>	author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao},
+</br>	title = {Unsupervised Part-Based Weighting Aggregation of Deep Convolutional Features for Image Retrieval},
+</br>	conference = {AAAI Conference on Artificial Intelligence},
+</br>	year = {2018}
+</br>}
+</br>https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137
