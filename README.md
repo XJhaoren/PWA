@@ -2,8 +2,14 @@ Part-based Weighting Aggregation (PWA)
 =
 Code for our AAAI2018 paper：
 -
-</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval.
-</br>Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang*, Baihua Xiao
+</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval. [(paper)](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137) </br>
+</br>Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang*, Baihua Xiao </br>
+>@inproceedings{ PWA, </br>
+>author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao}, </br>
+>title = {Unsupervised Part-Based Weighting Aggregation of Deep Convolutional Features for Image Retrieval}, </br>
+>conference = {AAAI Conference on Artificial Intelligence}, </br>
+>year = {2018} </br>
+>}
 
 NOTE:
 -
@@ -22,13 +28,4 @@ code:
 </br>6.Run evaluate.py, the mAP is printed.
 </br>7.Run select_filter.py to get the order of part detectors according to variances. 
 
-Related publications:
--
-</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval [(paper)](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137) </br>
->@inproceedings{ PWA, </br>
->author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao}, </br>
->title = {Unsupervised Part-Based Weighting Aggregation of Deep Convolutional Features for Image Retrieval}, </br>
->conference = {AAAI Conference on Artificial Intelligence}, </br>
->year = {2018} </br>
->}
 
