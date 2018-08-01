@@ -1,4 +1,5 @@
-# Part-based Weighting Aggregation (PWA)
+Part-based Weighting Aggregation (PWA)
+=
 Code for our AAAI2018 paper：
 -
 </br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval.
@@ -30,4 +31,4 @@ Related publications:
 </br>	conference = {AAAI Conference on Artificial Intelligence},
 </br>	year = {2018}
 </br>}
-</br>https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137
+</br>[paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137)
