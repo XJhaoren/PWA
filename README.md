@@ -1,10 +1,11 @@
 # Part-based Weighting Aggregation (PWA)
 Code for our AAAI2018 paper：
+=
 </br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval.
 </br>Jian Xu, Cunzhao Shi, Chengzuo Qi, Chunheng Wang*, Baihua Xiao
 
 NOTE:
-
+=
 tools:
 </br>1.The python code is based on the python data science platform Anaconda2.
 </br>2.The python code is tested on Windows by PyCharm.
@@ -21,6 +22,7 @@ code:
 </br>7.Run select_filter.py to get the order of part detectors according to variances. 
 
 Related publications:
+=
 </br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval
 </br>@paper{ PWA,
 </br>	author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao},
