@@ -24,7 +24,7 @@ code:
 
 Related publications:
 -
-</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval [paper](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137)
+</br>Unsupervised Part-based Weighting Aggregation of Deep Convolutional Features for Image Retrieval [(paper)](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16137)
 </br>@paper{ PWA,
 </br>	author = {Jian Xu and Cunzhao Shi and Chengzuo Qi and Chunheng Wang and Baihua Xiao},
 </br>	title = {Unsupervised Part-Based Weighting Aggregation of Deep Convolutional Features for Image Retrieval},
